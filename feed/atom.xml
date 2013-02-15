@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://example.com/</id>
+  <title>John Doe</title>
+  <updated>2013-02-13T20:26:23Z</updated>
+  <link rel="alternate" href="http://example.com/"/>
+  <link rel="self" href="http://example.com/feed/atom.xml"/>
+  <author>
+    <name>John Doe</name>
+    <uri>http://example.com</uri>
+  </author>
+  <entry>
+    <id>tag:example.com,2013-02-13:/2013/02/Foxconn-worker/</id>
+    <title type="html">How long would it take a Foxconn worker to save for an iPad?</title>
+    <published>2013-02-13T20:26:23Z</published>
+    <updated>2013-02-13T20:26:23Z</updated>
+    <link rel="alternate" href="http://example.com/2013/02/Foxconn-worker/"/>
+    <content type="html">&lt;p&gt;How long would it take the average single male Foxconn employee to save enough money to buy an iPad&lt;/p&gt;
+
+&lt;p&gt;Foxconn workers make on average &lt;em&gt;about&lt;/em&gt; &lt;strong&gt;$17&lt;/strong&gt; per day, and they work 6 days a week. &lt;/p&gt;
+
+&lt;p&gt;365.242(days in a year)/12(months)=30.436833333(days per month)/7(days a week)*6(working days)=
+&lt;strong&gt;26.088714288&lt;/strong&gt; working days/month.&lt;/p&gt;
+
+&lt;p&gt;Approximately 26 working days a month, the average Foxconn worker would make &lt;strong&gt;$442&lt;/strong&gt; a month. (Based in Shanghai, China)&lt;/p&gt;
+
+&lt;p&gt;Basic living expenses for a single male with no health problems and no insurance as &lt;strong&gt;$382.50&lt;/strong&gt; per month to live inside the factory. (Shanghai)&lt;/p&gt;
+
+&lt;p&gt;He would have &lt;strong&gt;$59.5&lt;/strong&gt; left per month.&lt;/p&gt;
+
+&lt;p&gt;An iPad in Shanghai costs &lt;strong&gt;3688RMB&lt;/strong&gt; or &lt;strong&gt;$592.67&lt;/strong&gt; USD.&lt;/p&gt;
+
+&lt;p&gt;It would take our typical Foxconn employee just under &lt;strong&gt;10 months **(9.960840336) or just under **260 working days&lt;/strong&gt; (259.865517571) to be able to buy an Retina iPad.&lt;/p&gt;
+
+&lt;p&gt;An iPhone 5 costs &lt;strong&gt;5288RBM&lt;/strong&gt; or &lt;strong&gt;$849.79&lt;/strong&gt; USD. It would take over &lt;strong&gt;14 months&lt;/strong&gt; (14.282184874) to save enough to buy an iPhone 5.&lt;/p&gt;
+
+&lt;p&gt;&lt;a id="references"&gt;References&lt;/a&gt;
+&lt;a href="http://www.nytimes.com/2012/01/22/business/apple-america-and-a-squeezed-middle-class.html?pagewanted=3&amp;amp;_r=0"&gt;Foxconn Wages &amp;amp; Days Worked&lt;/a&gt;
+&lt;a href="http://www.numbeo.com/cost-of-living/city_result.jsp?country=China&amp;amp;city=Shanghai&amp;amp;displayCurrency=USD"&gt;Shanghai Cost of Living&lt;/a&gt;
+&lt;a href="http://store.apple.com/cn/buy/home/shop_ipad/family/ipad"&gt;iPad Cost in China&lt;/a&gt;
+&lt;a href="http://store.apple.com/cn/browse/home/shop_iphone"&gt;iPhone 5 Cost in China&lt;/a&gt;
+&lt;a href="http://exchangerate360.com/RMB-USD-conversion.htm"&gt;RBM to USD Conversion&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:example.com,2013-01-17:/2013/01/Selective-Piracy/</id>
+    <title type="html">Selective Piracy</title>
+    <published>2013-01-17T14:49:09Z</published>
+    <updated>2013-01-17T14:49:09Z</updated>
+    <link rel="alternate" href="http://example.com/2013/01/Selective-Piracy/"/>
+    <content type="html">&lt;p&gt;I’m a selective pirate. The Robin Hood of pirating. I only pirate movies from the &lt;em&gt;certain&lt;/em&gt; studios, music from the &lt;em&gt;certain&lt;/em&gt; artists and labels, and I never pirate software/apps. Developers don’t make enough money as it is. Also, Developers never tried to take away our online freedom. I’m looking at you, &lt;em&gt;certain&lt;/em&gt; studios who supported and lobbied for &lt;a href="http://en.wikipedia.org/wiki/Stop_Online_Piracy_Act"&gt;SOPA&lt;/a&gt; and &lt;a href="http://en.wikipedia.org/wiki/PROTECT_IP_Act"&gt;PIPA&lt;/a&gt;. Sure, people pirated your movies and songs before &lt;a href="http://en.wikipedia.org/wiki/Stop_Online_Piracy_Act"&gt;SOPA&lt;/a&gt; and &lt;a href="http://en.wikipedia.org/wiki/PROTECT_IP_Act"&gt;PIPA&lt;/a&gt;, but I didn’t. I actually paid for every single movie, TV show and album. It was expensive, so thank you studios for helping me slash my entertainment budget. If you too are interested in cutting your budget, here is a &lt;a href="http://en.wikipedia.org/wiki/List_of_organizations_with_official_stances_on_the_SOPA_and_PIPA#Organizations_supporting_SOPA"&gt;link&lt;/a&gt; to a list of organizations who support &lt;a href="http://en.wikipedia.org/wiki/Stop_Online_Piracy_Act"&gt;SOPA&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;I evaluate the &lt;em&gt;pirateworthyness&lt;/em&gt; of each item on an individual basis, which, to be honest, takes a lot longer than simply pirating everything I want. It’s tedious, but it keeps my moral compass in line and it’s worth it to support those who deserve supporting. No, I’m never paying another penny towards a company who supports any sort of internet oversight. Yes, I’ll always pay for software. If the developer doesn’t offer a trial I might create my own, but if I end up using the software I’ll buy it. &lt;/p&gt;
+
+&lt;p&gt;Everyone has to come down on some side of the piracy debate. Some people are 100% against piracy, and that’s okay, I respect that. If you pirate everything, you might lose a little bit of my respect, but it’s still a personal decision. Make up your own mind, set your own guidelines and stick with them. That’s what I respect.&lt;/p&gt;
+
+&lt;p&gt;*Note: The first person narrative in this story does not represent my opinion on this subject. This story was inspired by an anonymous person who sent me a &lt;a href="http://www.youtube.com/watch?v=MA2KmJMKFrQ&amp;amp;t=1m24s"&gt;self destructing letter&lt;/a&gt; in the mail. Lawyers, I’m sorry but I have no idea who sent this to me. With a court order, you’re welcome to the ashes, although I have scattered them in the ocean. In any case, I’ll at least be able to point you in the right direction.&lt;/p&gt;</content>
+  </entry>
+</feed>
+
