@@ -1,0 +1,118 @@
+html {
+  -webkit-text-size-adjust: none; }
+  html.slowly {
+    -webkit-transition: all 10s;
+    -moz-transition: all 10s;
+    -o-transition: all 10s;
+    -ms-transition: all 10s;
+    transition: all 10s; }
+  html.background-1 {
+    background-color: #ff8b73; }
+  html.background-2 {
+    background-color: #ff6140; }
+  html.background-3 {
+    background-color: #3ec5f9; }
+  html.background-4 {
+    background-color: #c580f8; }
+  html.background-5 {
+    background-color: #ffc840; }
+  html.background-6 {
+    background-color: #ffd773; }
+
+::selection {
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff; }
+
+::-moz-selection {
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff; }
+
+body {
+  -webkit-transition: all 800ms ease;
+  -moz-transition: all 800ms ease;
+  -ms-transition: all 800ms ease;
+  -o-transition: all 800ms ease;
+  transition: all 800ms ease;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 0 auto;
+  margin: 0 auto;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  color: #333; }
+
+.righter {
+  float: right; }
+
+.lefter {
+  float: left; }
+
+.dribbble {
+  margin-top: -35px; }
+
+.icoico {
+  font-size: 2.6rem;
+  line-height: 2.0rem;
+  text-align: center;
+  text-decoration: none; }
+
+.icoico a {
+  -webkit-transition: all 800ms ease;
+  -moz-transition: all 800ms ease;
+  -ms-transition: all 800ms ease;
+  -o-transition: all 800ms ease;
+  transition: all 800ms ease;
+  color: #333;
+  text-decoration: none; }
+
+.icoico a:hover {
+  color: rgba(0, 0, 0, 0.2); }
+
+.folio {
+  padding: 0 auto;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); }
+
+@media only screen and (max-width: 926px) {
+  .widescreen {
+    display: none; } }
+.bodily {
+  padding: 0 auto;
+  margin: 0 auto;
+  max-width: 525px; }
+
+.bodily a {
+  color: #333;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  transition: all 0.6s ease; }
+
+.bodily a:hover {
+  color: rgba(0, 0, 0, 0.5); }
+
+.rotate {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  overflow: hidden; }
+
+.rotate:hover {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg); }
+
+.padder {
+  padding: 10px 10px 10px 10px;
+  text-align: center; }
