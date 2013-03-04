@@ -38,12 +38,6 @@ html {
 }
 
 body {
--webkit-transition: all 800ms ease;
--moz-transition: all 800ms ease;
--ms-transition: all 800ms ease;
--o-transition: all 800ms ease;
-transition: all 800ms ease;
-
   text-align: left;
   margin-left: 15px;
   margin-right: 15px;
@@ -94,13 +88,6 @@ transition: all 800ms ease;
   margin: 0 auto;
   text-align: center;
   background-color: rgba(255,255,255,0.9);
-  // -webkit-box-shadow:  0px 0px 15px 0px #787878;
-  // box-shadow:  0px 0px 15px 0px #787878;
-  // margin-left: 6%;
-  //   margin-right: 6%;
-  //   min-height: 100%;
-  //   min-width: 88%;
-  //   max-width: 88%;
 }
 
 @media only screen and (min-width: 926px) {
