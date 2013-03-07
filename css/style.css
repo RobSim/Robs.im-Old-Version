@@ -3,21 +3,32 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
   line-height: 0.5rem;
-  width: 640px;
-  height: 1136px; }
+  max-width: 640px;
+  width: 100vw;
+  max-height: 1136px;
+  height: 100vh;
+}
 
 h1 {
   font-size: 1.6rem;
   color: #444;
-  text-align: left; }
+  text-align: left;
+  line-height: 1.7rem;
+  margin-left: 60px;
+  margin-bottom: 0;
+}
 
 h2 {
   font-size: 1.0rem;
-  color: #868686; }
+  color: #868686;
+  margin-left: 60px;
+}
 
 h3 {
   font-size: 1.0rem;
-  color: #868686; }
+  color: #868686;
+  margin-left: 60px;
+}
 
 a:link {
   color: #444;
@@ -26,7 +37,7 @@ a:link {
 a:visited {
   color: #a0a0a0; }
 
-.posts {
+.post {
   border-bottom: 1px solid #c9c9c9;
   padding-bottom: 3px; }
 
