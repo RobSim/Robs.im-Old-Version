@@ -1,0 +1,51 @@
+body {
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.6rem;
+	line-height: 0.5rem;
+	width: 640px;
+	height: 1136px;
+}
+
+h1 {
+	font-size: 1.6rem;
+	color: #444;
+	text-align: left;
+}
+h2 {
+	font-size: 1.0rem;
+	color: #868686;
+}
+h3 {
+	font-size: 1.0rem;
+	color: #868686;
+}
+a:link {
+	color: #444;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #a0a0a0
+}
+
+.dot {
+	position: relative;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	/*width: 48px;
+	height: 48px;*/
+
+}
+.redot {
+	position: absolute;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #fff;
+	left: 0;
+	right: 0;
+	top: 24px;
+	bottom: 0;
+}
+
