@@ -12,14 +12,17 @@ h1 {
 	color: #444;
 	text-align: left;
 }
+
 h2 {
 	font-size: 1.0rem;
 	color: #868686;
 }
+
 h3 {
 	font-size: 1.0rem;
 	color: #868686;
 }
+
 a:link {
 	color: #444;
 	text-decoration: none;
@@ -28,19 +31,21 @@ a:link {
 a:visited {
 	color: #a0a0a0
 }
+
 .posts {
 	border-bottom: 1px solid #c9c9c9;
 	// border-color: #c9c9c9;
 	padding-bottom: 3px;
 }
+
 .dot {
 	position: relative;
 	float: left;
 	padding: 5px 5px 5px 5px;
 	/*width: 48px;
 	height: 48px;*/
-
 }
+
 .redot {
 	position: absolute;
 	text-align: center;
