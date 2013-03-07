@@ -26,6 +26,10 @@ a:link {
 a:visited {
   color: #a0a0a0; }
 
+.posts {
+  border-bottom: 1px solid #c9c9c9;
+  padding-bottom: 3px; }
+
 .dot {
   position: relative;
   float: left;
