@@ -1,6 +1,6 @@
-simmr.github.com
+Rob Sim
 ================
 
 Robs.im Personal Landing Page
 
-TODO: Write a README.md
+This is my personal landing page, I keep all my personal stuff on here, like my portfolio, a little about me section etc.
