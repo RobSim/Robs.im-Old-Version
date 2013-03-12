@@ -19,17 +19,14 @@
   position: relative;
   display: block;
   padding: 5px;
-  margin: 5px 5px 0 5px;
-  background: rgba(0,0,0,0);
+  margin: 5px 5px 5px 5px;
+  background: #f3f3f3;
   -webkit-border-radius:10px;
-  -webkit-transition:background 0.2s linear;
+  -webkit-transition:background 0.6s ease-in-out;
   -moz-border-radius:10px;
-  -moz-transition:background 0.2s linear;
+  -moz-transition:background 0.6s ease-in-out;
   border-radius:10px;
-  transition:background 0.2s linear;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000)";   
-  display: table;
+  transition:background 0.6s ease-in-out;
   float:left;
   vertical-align:middle;
 }

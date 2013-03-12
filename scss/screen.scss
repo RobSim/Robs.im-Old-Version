@@ -118,6 +118,7 @@ body {
 
 .bodily a:hover {
  color: rgba(0,0,0,0.5);
+ margin-bottom: 0;
 }
 
 .rotate{
@@ -148,68 +149,3 @@ body {
 }
 
 @import "dribbble";
-// // Dribbble
-// .hcs{
-//   overflow:hidden;
-//   text-align: left;
-// }
-// .hcs ul,
-// .hcs *{
-//   padding: 0;
-//   margin: 0;
-//   border: 0;
-//   outline: 0; 
-//   list-style-type: none;
-// }
-// .hcs ul{
-//   margin: 0 -5px;
-// }
-// .hcs li{
-//   width: 400px;
-//   height:300px;
-//   position: relative;
-//   display: block;
-//   padding: 5px;
-//   margin: 5px 5px 0 5px;
-//   background: rgba(0,0,0,0);
-//   -webkit-border-radius:10px;
-//   -webkit-transition:background 0.2s linear;
-//   -moz-border-radius:10px;
-//   -moz-transition:background 0.2s linear;
-//   border-radius:10px;
-//   transition:background 0.2s linear;
-//   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000);
-//   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000)";   
-//   display: table;
-//   float:left;
-//   vertical-align:middle;
-// }
-// .hcs li a{
-//   width:400px;
-//   height:300px;
-//   text-align:center;
-//   vertical-align:middle;
-//   // display: table-cell;
-// }
-// .hcs li:hover{
-//   background: rgba(0,0,0,0.2);
-//   // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000);
-//   // -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000)";   
-// }
-// .hcs img{
-//   border: 1px solid rgba(0,0,0,0.3);
-//             border-radius: 10px;
-//             -moz-border-radius: 10px;
-//             -khtml-border-radius: 10px;
-//             -webkit-border-radius: 10px;
-//   width: 0 auto;
-//   height: 0 auto;
-//   max-width: 400px;
-//   max-height:300px;
-//   border: 0;
-//   -ms-interpolation-mode:bicubic;
-//   font-size:0;
-//   // float:left;
-// }
-// // End Dribbble
-
