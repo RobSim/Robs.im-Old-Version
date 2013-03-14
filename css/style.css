@@ -1,0 +1,257 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("font/proximanova-light-webfont.eot");
+  src: url("font/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("font/proximanova-light-webfont.woff") format("woff"), url("font/proximanova-light-webfont.ttf") format("truetype"), url("font/proximanova-light-webfont.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova Extrabold';
+  src: url("font/proximanova-extrabold-webfont.eot");
+  src: url("font/proximanova-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("font/proximanova-extrabold-webfont.woff") format("woff"), url("font/proximanova-extrabold-webfont.ttf") format("truetype"), url("font/proximanova-extrabold-webfont.svg#proxima_novaextrabold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../font/iconfont.eot?14602704");
+  src: url("../font/iconfont.eot?14602704#iefix") format("embedded-opentype"), url("../font/iconfont.woff?14602704") format("woff"), url("../font/iconfont.ttf?14602704") format("truetype"), url("../font/iconfont.svg?14602704#iconfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.svg?14602704#iconfont') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: 'iconfont';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity .8 */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - magrins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+.icon-forrst, .icon-dribbble, .icon-email, .icon-tent, .icon-blog, .icon-feather {
+  -webkit-transition: all 800ms ease-in-out;
+  -moz-transition: all 800ms ease-in-out;
+  -ms-transition: all 800ms ease-in-out;
+  -o-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out; }
+
+.icon-forrst:before {
+  content: '\3a'; }
+
+/* ':' */
+.icon-dribbble:before {
+  content: '\44'; }
+
+/* 'D' */
+.icon-email:before {
+  content: '\5d'; }
+
+/* ']' */
+.icon-feather:before {
+  content: '\2712'; }
+
+/* '✒' */
+.icon-tent:before {
+  content: '\e75f'; }
+
+/* '' */
+.icon-blog:before {
+  content: '📄'; }
+
+/* '\1f4c4' */
+.icon-dictionary:before {
+  content: '\e0f5'; }
+
+/* '' */
+.icon-forrst:hover {
+  color: #57B637; }
+
+.icon-dribbble:hover {
+  color: #EA4C89; }
+
+.icon-email:hover {
+  color: #d2292f; }
+
+.icon-blog:hover {
+  color: #fff355; }
+
+.icon-tent:hover {
+  color: #934b85; }
+
+section,
+header,
+footer {
+  display: block; }
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  width: 100%;
+  font-family: "Proxima Nova Extrabold", sans-serif;
+  margin: 0;
+  padding: 0 auto;
+  color: #333;
+  font-size: 1.3rem;
+  text-align: left;
+  line-height: 1.7rem; }
+
+img {
+  max-width: 100%;
+  width: auto\9;
+  /*iefix*/
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic; }
+
+a {
+  text-decoration: none;
+  color: #777; }
+
+a:hover {
+  color: #DFE0DE; }
+
+header {
+  text-align: center; }
+
+header#head {
+  background: #dfe0de;
+  padding: 40px 0 30px 0; }
+
+header#head h1 {
+  font-weight: bold;
+  color: #444;
+  letter-spacing: 0.60rem; }
+
+@media screen and (min-width: 600px) {
+  header#head h1 {
+    padding-top: 35px;
+    font-size: 7rem; } }
+@media screen and (max-width: 600px) {
+  header#head h1 {
+    padding-top: 20px;
+    font-size: 4rem; } }
+header#head h2 {
+  margin-top: -35px;
+  font-size: 1.1rem;
+  color: #afb0ae; }
+
+section#about {
+  padding: 78px 0 78px 0;
+  color: #afb0ae; }
+
+section#about .width {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  line-height: 1.9rem; }
+
+section#social {
+  padding: 45px 0 60px 0;
+  background: #0096d3; }
+
+section#social .aligner {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  color: #fff; }
+
+section#social .aligner a {
+  color: #fff;
+  text-decoration: none; }
+
+section#latest1 {
+  padding: 78px 0 78px 0;
+  background: #9fc85f; }
+
+section#latest1 .width {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px; }
+
+section#latest2 {
+  padding: 78px 0 78px 0;
+  background: #eb9c50; }
+
+section#latest2 .width {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: normal;
+  font-family: "Proxima Nova", sans-serif; }
+
+h1 {
+  font-size: 2.0rem; }
+
+h2 {
+  font-size: 1.9rem; }
+
+h3 {
+  font-size: 1.8rem; }
+
+h4 {
+  font-size: 1.7rem; }
+
+h5 {
+  font-size: 1.6rem; }
+
+h6 {
+  font-size: 1.5rem; }
+
+ul.unstyled,
+ol.unstyled {
+  float: left;
+  margin-left: 0;
+  list-style: none; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.transitioner {
+  -webkit-transition: all 10s;
+  -moz-transition: all 10s;
+  -o-transition: all 10s;
+  -ms-transition: all 10s;
+  transition: all 10s; }

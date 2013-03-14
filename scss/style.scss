@@ -1,0 +1,188 @@
+@import "fonts";
+@import "iconfont";
+
+section,
+header,
+footer {
+	display: block;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+	width: 100%;
+	font-family: 'Proxima Nova Extrabold', sans-serif;
+	margin: 0;
+	padding: 0 auto;
+	color: #333;
+	font-size: 1.3rem;
+	text-align: left;
+	line-height: 1.7rem;
+}
+
+img {
+// Responsive IMGs
+  max-width: 100%;
+  width: auto\9; /*iefix*/
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+a {
+	text-decoration: none;
+	color: #777;
+}
+
+a:hover {
+	color: #DFE0DE;
+}
+
+header {
+	text-align: center;
+}
+header#head {
+	background: #dfe0de;
+	padding: 40px 0 30px 0;
+}
+
+header#head h1 {
+	font-weight: bold;
+	color: #444;
+	letter-spacing: 0.60rem;
+}
+
+@media screen and (min-width:600px) {
+	header#head h1 {
+		padding-top: 35px;
+		font-size: 7rem;
+	}
+}
+
+@media screen and (max-width:600px) {
+	header#head h1 {
+		padding-top: 20px;
+		font-size: 4rem;
+	}
+}
+
+header#head h2 {
+	margin-top: -35px;
+	font-size: 1.1rem;
+	color: #afb0ae;
+}
+
+section#about {
+	padding: 78px 0 78px 0;
+	color: #afb0ae;
+}
+
+section#about .width {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+	line-height: 1.9rem;
+}
+
+section#social {
+	padding: 45px 0 60px 0;
+	background: #0096d3;
+}
+
+section#social .aligner {
+	font-size: 3rem;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 600px;
+	color: #fff;
+}
+
+section#social .aligner a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section#latest1 {
+	padding: 78px 0 78px 0;
+	background: #9fc85f
+}
+
+section#latest1 .width {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+}
+
+section#latest2 {
+	padding: 78px 0 78px 0;
+	background: #eb9c50
+}
+
+section#latest2 .width {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: normal;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+h1 {
+	font-size: 2.0rem;
+}
+
+h2 {
+	font-size: 1.9rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+}
+
+h4 {
+	font-size: 1.7rem;
+}
+
+h5{
+	font-size: 1.6rem;
+}
+
+h6 {
+	font-size: 1.5rem;
+}
+
+ul.unstyled,
+ol.unstyled {
+  float: left;
+  margin-left: 0;
+  list-style: none;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.transitioner{
+    -webkit-transition: all 10.0s;
+    -moz-transition: all 10.0s;
+    -o-transition: all 10.0s;
+    -ms-transition: all 10.0s;
+    transition: all 10.0s;
+  }
