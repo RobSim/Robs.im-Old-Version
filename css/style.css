@@ -55,13 +55,6 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-.icon-forrst, .icon-dribbble, .icon-email, .icon-tent, .icon-blog, .icon-feather {
-  -webkit-transition: all 400ms ease-in-out;
-  -moz-transition: all 400ms ease-in-out;
-  -ms-transition: all 400ms ease-in-out;
-  -o-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out; }
-
 .icon-forrst:before {
   content: '\3a'; }
 
