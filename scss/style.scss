@@ -15,7 +15,7 @@ html {
 
 body {
 	width: 100%;
-	font-family: 'Proxima Nova Extrabold', sans-serif;
+	font-family: 'Proxima Nova', sans-serif;
 	margin: 0;
 	padding: 0 auto;
 	color: #333;
@@ -54,7 +54,7 @@ header#head {
 header#head h1 {
 	font-weight: bold;
 	color: #444;
-	letter-spacing: 0.60rem;
+	// letter-spacing: 0.60rem;
 }
 
 @media screen and (min-width:600px) {
@@ -166,23 +166,9 @@ h6 {
 	font-size: 1.5rem;
 }
 
-ul.unstyled,
-ol.unstyled {
-  float: left;
-  margin-left: 0;
-  list-style: none;
-}
-
 .left {
   float: left;
 }
 .right {
   float: right;
 }
-.transitioner{
-    -webkit-transition: all 10.0s;
-    -moz-transition: all 10.0s;
-    -o-transition: all 10.0s;
-    -ms-transition: all 10.0s;
-    transition: all 10.0s;
-  }
