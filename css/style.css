@@ -149,7 +149,7 @@ header#head {
   padding: 40px 0 30px 0; }
 
 header#head h1 {
-  font-weight: bold;
+  font-family: 'Proxima Nova Extrabold';
   color: #444; }
 
 @media screen and (min-width: 600px) {
