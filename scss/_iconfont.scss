@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'iconfont';
   src: url("../css/font/iconfont.eot?14602704");
-  src: url("../css/font/iconfont.eot?14602704#iefix") format('embedded-opentype'), url("../font/iconfont.woff?14602704") format('woff'), url("../font/iconfont.ttf?14602704") format('truetype'), url("../font/iconfont.svg?14602704#iconfont") format('svg');
+  src: url("../css/font/iconfont.eot?14602704#iefix") format('embedded-opentype'), url("../css/font/iconfont.woff?14602704") format('woff'), url("../css/font/iconfont.ttf?14602704") format('truetype'), url("../css/font/iconfont.svg?14602704#iconfont") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -43,13 +43,13 @@
 /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-// .icon-forrst, .icon-dribbble, .icon-email, .icon-tent, .icon-blog, .icon-feather {
-//   -webkit-transition: all 400ms ease-in-out;
-//    -moz-transition: all 400ms ease-in-out;
-//     -ms-transition: all 400ms ease-in-out;
-//     -o-transition: all 400ms ease-in-out;
-//     transition: all 400ms ease-in-out;
-// }
+.icon-forrst, .icon-dribbble, .icon-email, .icon-tent, .icon-blog, .icon-feather {
+  -webkit-transition: all 400ms ease-in-out;
+   -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
 
 
 .icon-forrst:before { content: '\3a'; } /* ':' */
