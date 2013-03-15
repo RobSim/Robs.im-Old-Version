@@ -125,9 +125,6 @@ a {
   text-decoration: none;
   color: #777; }
 
-a:hover {
-  color: #DFE0DE; }
-
 body {
   width: 100%;
   font-family: "Proxima Nova", sans-serif;
