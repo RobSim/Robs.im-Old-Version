@@ -34,6 +34,14 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+::selection {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+::-moz-selection {
+  background: rgba(0, 0, 0, 0.5);
+}
+
 a {
 	text-decoration: none;
 	color: #777;
