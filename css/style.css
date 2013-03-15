@@ -164,7 +164,8 @@ header#head h1 {
 @media screen and (min-width: 700px) {
   header#head h1 {
     padding-top: 35px;
-    font-size: 7rem; }
+    font-size: 7rem;
+    line-height: 5rem; }
 
   section#social .aligner {
     font-size: 3rem; } }
@@ -176,7 +177,7 @@ header#head h1 {
   section#social .aligner {
     font-size: 2.3rem; } }
 header#head h2 {
-  margin-top: -35px;
+  margin-top: -75px;
   font-size: 1.1rem;
   color: #afb0ae; }
 
