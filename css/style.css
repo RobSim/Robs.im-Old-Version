@@ -60,7 +60,8 @@
   -moz-transition: all 400ms ease-in-out;
   -ms-transition: all 400ms ease-in-out;
   -o-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out; }
+  transition: all 400ms ease-in-out;
+  display: inline-block; }
 
 .icon-forrst:before {
   content: '\3a'; }
@@ -91,18 +92,23 @@
 
 /* '' */
 .icon-forrst:hover {
+  display: inline-block;
   color: #57B637; }
 
 .icon-dribbble:hover {
+  display: inline-block;
   color: #EA4C89; }
 
 .icon-email:hover {
+  display: inline-block;
   color: #d2292f; }
 
 .icon-blog:hover {
+  display: inline-block;
   color: #fff355; }
 
 .icon-tent:hover {
+  display: inline-block;
   color: #934b85; }
 
 section,
