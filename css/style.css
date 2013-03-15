@@ -161,14 +161,20 @@ header#head h1 {
   font-family: 'Proxima Nova Extrabold';
   color: #444; }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   header#head h1 {
     padding-top: 35px;
-    font-size: 7rem; } }
-@media screen and (max-width: 600px) {
+    font-size: 7rem; }
+
+  section#social .aligner {
+    font-size: 3rem; } }
+@media screen and (max-width: 700px) {
   header#head h1 {
     padding-top: 20px;
-    font-size: 4rem; } }
+    font-size: 4rem; }
+
+  section#social .aligner {
+    font-size: 2.5rem; } }
 header#head h2 {
   margin-top: -35px;
   font-size: 1.1rem;
@@ -197,7 +203,6 @@ section#social {
   background: #0096d3; }
 
 section#social .aligner {
-  font-size: 3rem;
   text-align: center;
   margin: 0 auto;
   max-width: 600px;
