@@ -13,6 +13,17 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+
+a {
+	text-decoration: none;
+	color: #777;
+}
+
+a:hover {
+	color: #DFE0DE;
+}
+
+
 body {
 	width: 100%;
 	font-family: 'Proxima Nova', sans-serif;
@@ -40,20 +51,6 @@ img {
 
 ::-moz-selection {
   background: rgba(0, 0, 0, 0.5);
-}
-
-a {
-	text-decoration: none;
-	color: #777;
-	  -webkit-transition: all 250ms ease-in-out;
-  	  -moz-transition: all 250ms ease-in-out;
-  	  -ms-transition: all 250ms ease-in-out;
-   	  -o-transition: all 250ms ease-in-out;
-   	  transition: all 250ms ease-in-out;
-}
-
-a:hover {
-	color: #DFE0DE;
 }
 
 header {
@@ -100,7 +97,17 @@ section#about .width {
 	margin: 0 auto;
 	padding: 0 20px 0 20px;
 	line-height: 1.9rem;
+	text-align: left;
 }
+
+section#about .width#hover {
+	  -webkit-transition: all 250ms linear;
+  	  -moz-transition: all 250ms linear;
+  	  -ms-transition: all 250ms linear;
+   	  -o-transition: all 250ms linear;
+   	  transition: all 250ms linear;
+}
+
 
 section#social {
 	padding: 45px 0 60px 0;
@@ -142,7 +149,22 @@ section#latest2 .width {
 	padding: 0 20px 0 20px;
 }
 
+footer#foot {
+	// width: 100%;
+	padding: 40px 0 30px 0;
+	background: #c0576a;
+}
 
+footer#foot .cont {
+	text-align: left;
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+footer#foot .cont a {
+	color: #444;
+	text-decoration: none;
+}
 
 h1,
 h2,
