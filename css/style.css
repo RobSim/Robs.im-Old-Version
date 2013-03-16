@@ -293,5 +293,6 @@ h6 {
   display: block; }
 
 .names {
+  float: right;
   text-align: center;
   display: none; }
