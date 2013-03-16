@@ -68,6 +68,9 @@ header#head h1 {
 		font-size: 7rem;
 		line-height: 5rem;
 	}
+	header#head h2 {
+		margin-top: -75px;
+	}
 	section#social .aligner {
 		font-size: 2rem;	
 	}
@@ -78,13 +81,15 @@ header#head h1 {
 		padding-top: 20px;
 		font-size: 4rem;
 	}
+	header#head h2 {
+		margin-top: -15px;
+	}
 	section#social .aligner {
 		font-size: 1.5rem;
 	}
 }
 
 header#head h2 {
-	margin-top: -75px;
 	font-size: 1.1rem;
 	color: #afb0ae;
 }
