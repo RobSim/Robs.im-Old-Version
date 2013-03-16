@@ -69,7 +69,7 @@ header#head h1 {
 		line-height: 5rem;
 	}
 	section#social .aligner {
-		font-size: 3rem;	
+		font-size: 2rem;	
 	}
 }
 
@@ -79,7 +79,7 @@ header#head h1 {
 		font-size: 4rem;
 	}
 	section#social .aligner {
-		font-size: 2.3rem;
+		font-size: 1.5rem;
 	}
 }
 
@@ -121,7 +121,7 @@ section#social .aligner {
 	margin: 0 auto;
 	max-width: 600px;
 	color: #fff;
-
+	float:left;
 }
 
 section#social .aligner a {
@@ -210,3 +210,19 @@ h6 {
 .right {
   float: right;
 }
+
+.contain {
+	float: right;
+	clear: both;
+}
+
+.contain:hover .names {
+	display: block;
+}
+
+.names {
+	float:right;
+	text-align: center;
+	display:none;
+}
+

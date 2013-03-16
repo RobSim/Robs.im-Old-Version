@@ -51,7 +51,7 @@
   /* remove if not needed */
   margin-left: 0.2em;
   /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
+  font-size: 150%;
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
@@ -168,14 +168,14 @@ header#head h1 {
     line-height: 5rem; }
 
   section#social .aligner {
-    font-size: 3rem; } }
+    font-size: 2rem; } }
 @media screen and (max-width: 700px) {
   header#head h1 {
     padding-top: 20px;
     font-size: 4rem; }
 
   section#social .aligner {
-    font-size: 2.3rem; } }
+    font-size: 1.5rem; } }
 header#head h2 {
   margin-top: -75px;
   font-size: 1.1rem;
@@ -207,7 +207,8 @@ section#social .aligner {
   text-align: center;
   margin: 0 auto;
   max-width: 600px;
-  color: #fff; }
+  color: #fff;
+  float: left; }
 
 section#social .aligner a {
   color: #fff;
@@ -278,3 +279,15 @@ h6 {
 
 .right {
   float: right; }
+
+.contain {
+  float: right;
+  clear: both; }
+
+.contain:hover .names {
+  display: block; }
+
+.names {
+  float: right;
+  text-align: center;
+  display: none; }
