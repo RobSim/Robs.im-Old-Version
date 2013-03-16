@@ -212,8 +212,7 @@ section#social .aligner {
   text-align: center;
   margin: 0 auto;
   max-width: 600px;
-  color: #fff;
-  float: left; }
+  color: #fff; }
 
 section#social .aligner a {
   color: #fff;
@@ -286,13 +285,11 @@ h6 {
   float: right; }
 
 .contain {
-  float: right;
   clear: both; }
 
 .contain:hover .names {
   display: block; }
 
 .names {
-  float: right;
   text-align: center;
   display: none; }
