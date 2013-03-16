@@ -161,6 +161,10 @@ header#head h1 {
   font-family: 'Proxima Nova Extrabold';
   color: #444; }
 
+header#head h2 {
+  font-size: 1.1rem;
+  color: #afb0ae; }
+
 @media screen and (min-width: 700px) {
   header#head h1 {
     padding-top: 35px;
@@ -182,10 +186,6 @@ header#head h1 {
 
   section#social .aligner {
     font-size: 1.5rem; } }
-header#head h2 {
-  font-size: 1.1rem;
-  color: #afb0ae; }
-
 section#about {
   padding: 78px 0 78px 0;
   color: #afb0ae; }

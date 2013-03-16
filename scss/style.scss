@@ -62,6 +62,11 @@ header#head h1 {
 	// letter-spacing: 0.60rem;
 }
 
+header#head h2 {
+	font-size: 1.1rem;
+	color: #afb0ae;
+}
+
 @media screen and (min-width:700px) {
 	header#head h1 {
 		padding-top: 35px;
@@ -87,11 +92,6 @@ header#head h1 {
 	section#social .aligner {
 		font-size: 1.5rem;
 	}
-}
-
-header#head h2 {
-	font-size: 1.1rem;
-	color: #afb0ae;
 }
 
 section#about {
