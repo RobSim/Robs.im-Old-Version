@@ -286,6 +286,7 @@ h6 {
   float: right; }
 
 .contain {
+  float: right;
   clear: both; }
 
 .contain:hover .names {
