@@ -62,14 +62,22 @@ header#head h1 {
 	// letter-spacing: 0.60rem;
 }
 
+header#head h2 {
+	font-size: 1.1rem;
+	color: #afb0ae;
+}
+
 @media screen and (min-width:700px) {
 	header#head h1 {
 		padding-top: 35px;
 		font-size: 7rem;
 		line-height: 5rem;
 	}
+	header#head h2 {
+		margin-top: -75px;
+	}
 	section#social .aligner {
-		font-size: 3rem;	
+		font-size: 2rem;	
 	}
 }
 
@@ -78,15 +86,12 @@ header#head h1 {
 		padding-top: 20px;
 		font-size: 4rem;
 	}
-	section#social .aligner {
-		font-size: 2.3rem;
+	header#head h2 {
+		margin-top: -15px;
 	}
-}
-
-header#head h2 {
-	margin-top: -75px;
-	font-size: 1.1rem;
-	color: #afb0ae;
+	section#social .aligner {
+		font-size: 1.5rem;
+	}
 }
 
 section#about {
@@ -121,7 +126,7 @@ section#social .aligner {
 	margin: 0 auto;
 	max-width: 600px;
 	color: #fff;
-
+	float:left;
 }
 
 section#social .aligner a {
@@ -210,3 +215,19 @@ h6 {
 .right {
   float: right;
 }
+
+.contain {
+	float: right;
+	clear: both;
+}
+
+.contain:hover .names {
+	display: block;
+}
+
+.names {
+	float:right;
+	text-align: center;
+	display:none;
+}
+
