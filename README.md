@@ -1,6 +1,6 @@
 Rob Sim
 ================
 
-Robs.im Personal Landing Page
+Live Personal Site.
+Contact Me: me@mydomain
 
-This is my personal landing page, I keep all my personal stuff on here, like my portfolio, a little about me section etc.

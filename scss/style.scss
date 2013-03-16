@@ -79,6 +79,19 @@ header#head h2 {
 	section#social .aligner {
 		font-size: 2rem;	
 	}
+	.contain:hover .names {
+	display: block;
+	}
+	.contain {
+	float:right;
+	min-width: 120px;
+	}
+	.mobile {
+		display: none;
+	}
+	section#social {
+	padding: 30px 0 110px 0;
+	}
 }
 
 @media screen and (max-width:700px) {
@@ -87,10 +100,21 @@ header#head h2 {
 		font-size: 4rem;
 	}
 	header#head h2 {
-		margin-top: -15px;
+		margin-top: -25px;
 	}
 	section#social .aligner {
 		font-size: 1.5rem;
+	}
+	.contain:hover .names {
+	display: none;
+	}
+	.contain {
+display: none;
+	}
+	.mobile {
+	}
+	section#social {
+	padding: 20px 0 35px 0;
 	}
 }
 
@@ -117,7 +141,6 @@ section#about .width#hover {
 
 
 section#social {
-	padding: 45px 0 60px 0;
 	background: #0096d3;
 }
 
@@ -131,6 +154,7 @@ section#social .aligner {
 section#social .aligner a {
 	color: #fff;
 	text-decoration: none;
+	height: 125px;
 }
 
 section#latest1 {
@@ -215,15 +239,8 @@ h6 {
   float: right;
 }
 
-.contain {
-	clear: both;
-}
-
-.contain:hover .names {
-	display: block;
-}
-
 .names {
+	margin-top: 10px;
 	text-align: center;
 	display:none;
 }
