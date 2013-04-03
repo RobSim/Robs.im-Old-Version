@@ -1,5 +1,6 @@
 @import "fonts";
 @import "iconfont";
+@import "email";
 
 section,
 header,
@@ -174,6 +175,19 @@ section#latest2 .width {
 	padding: 0 20px 0 20px;
 }
 
+section#contact {
+	padding: 78px 0 78px 0;
+	background: #0096d3;
+}
+
+section#contact .width {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+	line-height: 1.9rem;
+	text-align: left;
+}
+
 footer#foot {
 	padding: 40px 0 30px 0;
 	background: #c0576a;
@@ -232,3 +246,4 @@ h6 {
 	display:none;
 }
 
+ul, li { list-style-type: none }
