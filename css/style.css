@@ -177,51 +177,95 @@ button {
   -ms-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out; }
 
-button.form-submit-button-light_rounded {
-  font-size: 16px;
-  font-family: "Proxima Nova", sans-serif;
-  margin-top: 10px;
-  width: 235px;
-  height: 40px;
-  background: #eeeeee;
-  color: #444;
-  text-decoration: none;
-  text-align: center;
-  border-radius: 0.35rem;
-  outline: none; }
+@media screen and (min-width: 700px) {
+  button.form-submit-button-light_rounded {
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    margin-top: 10px;
+    width: 235px;
+    height: 40px;
+    background: #eeeeee;
+    color: #444;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.35rem;
+    outline: none;
+    margin-left: 145px; }
 
-.form-textname {
-  width: 200px;
-  font-size: 16px;
-  font-family: "Proxima Nova", sans-serif;
-  color: #444;
-  float: left;
-  margin: 0px 0px 10px 0px; }
+  .form-textname {
+    width: 200px;
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    color: #444;
+    float: left;
+    margin: 0px 0px 10px 0px; }
 
-.form-textname:focus, .form-textnemail:focus, .form-textarea:focus {
-  color: #333;
-  background: #e5e5e4;
-  -moz-transition: all 0.25s ease-in-out;
-  -webkit-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out; }
+  .form-textname:focus, .form-textnemail:focus, .form-textarea:focus {
+    color: #333;
+    background: #e5e5e4;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
 
-.form-textemail {
-  width: 258px;
-  font-size: 16px;
-  font-family: "Proxima Nova", sans-serif;
-  color: #444;
-  float: left;
-  margin: 0px 10px 10px 10px; }
+  .form-textemail {
+    width: 258px;
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    color: #444;
+    float: left;
+    margin: 0px 10px 10px 10px; }
 
-.form-textarea {
-  width: 500px;
-  min-height: 12rem;
-  font-size: 16px;
-  font-family: "Proxima Nova", sans-serif;
-  color: #444; }
+  .form-textarea {
+    width: 500px;
+    min-height: 12rem;
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    color: #444; } }
+@media screen and (max-width: 700px) {
+  button.form-submit-button-light_rounded {
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    margin-top: 10px;
+    width: 235px;
+    height: 40px;
+    background: #eeeeee;
+    color: #444;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.35rem;
+    outline: none; }
 
+  .form-textname {
+    width: 200px;
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    color: #444;
+    margin: 0px 0px 10px 0px; }
+
+  .form-textname:focus, .form-textnemail:focus, .form-textarea:focus {
+    color: #333;
+    background: #e5e5e4;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+
+  .form-textemail {
+    width: 200px;
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    color: #444;
+    margin: 0px 0px 10px 0px; }
+
+  .form-textarea {
+    width: 200px;
+    min-height: 12rem;
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    color: #444; } }
 section,
 header,
 footer {
@@ -370,6 +414,7 @@ section#contact {
   background: #0096d3; }
 
 section#contact .width {
+  max-width: 100%;
   max-width: 600px;
   margin: 0 auto;
   padding: 0 20px 0 20px;
