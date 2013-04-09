@@ -15,7 +15,7 @@
             -webkit-appearance: none;
             display: block;
             border: 0;
-            background: #eee;
+            background: #fff;
             outline: none;
             // box-shadow: inset 0px 0px 1px 0px #a0a1a7;
             border-radius: 0.35rem;
@@ -30,45 +30,38 @@
                 text-decoration: none;
             }
 
-            form input.text:focus,
-            form select:focus,
-            form textarea:focus
-            {
-                background: #f8f8f8;
-            }
-            
-            form textarea
-            {
-                min-height: 9em;
+
+            form:focus {
+                color: #fff;
             }
 
             form .formerize-placeholder
             {
-                color: #555 !important;
+                color: #555;
                 font-style: italic;
             }
 
             form ::-webkit-input-placeholder
             {
-                color: #555 !important;
+                color: #555;
                 font-style: italic;
             }
 
             form :-moz-placeholder
             {
-                color: #555 !important;
+                color: #555;
                 font-style: italic;
             }
 
             form ::-moz-placeholder
             {
-                color: #555 !important;
+                color: #555;
                 font-style: italic;
             }
 
             form :-ms-input-placeholder
             {
-                color: #555 !important;
+                color: #555;
                 font-style: italic;
             }
 
@@ -76,6 +69,19 @@
             {
                 border: 0;
             }
+// Contact Form Placeholer Focus
+input:focus::-webkit-input-placeholder {
+    color: #fff;
+}
+textarea:focus::-webkit-input-placeholder {
+    color: #fff;
+}
+input:focus:-moz-placeholder {
+    color: #fff;
+}​
+textarea:focus:-moz-placeholder {
+    color: #fff;
+}
 
 button
     {
@@ -94,115 +100,87 @@ button
         transition: all 300ms ease-in-out;
     }
 
-@media screen and (min-width: 700px) {
-button.form-submit-button-light_rounded{
-font-size: 16px;
-font-family: 'Proxima Nova', sans-serif;
-margin-top: 10px;
-width: 235px;
-height: 40px;
-background: #eeeeee;
-color: #444;
-text-decoration: none;
-text-align: center;
-border-radius: 0.35rem;
-outline: none;
-margin-left: 145px;
--moz-transition: all 300ms ease-in-out;
--webkit-transition: all 300ms ease-in-out;
--o-transition: all 300ms ease-in-out;
--ms-transition: all 300ms ease-in-out;
-transition: all 300ms ease-in-out;
+button.submit {
+    font-family: 'Proxima Nova', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    border-style: none;
+    border-radius: 0.35rem;
+    outline: none;
+    background: #fff;
+    color: #444;
+    -moz-transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    margin-top: 10px;
+    width: 235px;
+    height: 40px;
+    font-size: 16px;
 }
 
-button.form-submit-button-light_rounded:hover{
+button.submit:hover{
     color: #fff;
-    background: #444;
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    outline: 0;
 }
 
+.form-textname, .form-textemail, .form-textarea {
+    font-family: 'Proxima Nova', sans-serif;
+    color: #444;
+    font-size: 16px;
+}
 
 .form-textname {
     width: 200px;
-    font-size: 16px;
-    font-family: 'Proxima Nova', sans-serif;
-    color: #444;
-    float: left;
     margin: 0px 0px 10px 0px;
 }
 
-.form-textname:focus, .form-textnemail:focus, .form-textarea:focus {
-    color: #333;
-    background: #e5e5e4;
+.form-textname:focus, .form-textemail:focus, .form-textarea:focus {
+    color: #fff;
+    background: none;
+    -webkit-box-shadow:  0px 0px 0px 1px #fff;
+    box-shadow:  0px 0px 0px 1px #fff;
     -moz-transition: all 300ms ease-in-out;
-        -webkit-transition: all 300ms ease-in-out;
-        -o-transition: all 300ms ease-in-out;
-        -ms-transition: all 300ms ease-in-out;
-        transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
     }
-.form-textemail {
-    width: 258px;
-    font-size: 16px;
-    font-family: 'Proxima Nova', sans-serif;
-    color: #444;
-    float: left;
-    margin: 0px 10px 10px 10px;
-}
 
-.form-textarea {
-    width: 500px;
-    min-height: 12rem;
-    font-size: 16px;
-    font-family: 'Proxima Nova', sans-serif;
-    color: #444;
-}
+@media screen and (min-width: 700px) {
+    button.submit{
+        margin-left: 145px;
+    }
+
+    .form-textname {
+        float: left;
+    }
+
+    .form-textemail {
+        width: 258px;
+        float: left;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .form-textarea {
+        width: 500px;
+        min-height: 12rem;
+    }
 }
 
 @media screen and (max-width: 700px) {
-button.form-submit-button-light_rounded{
-font-size: 16px;
-font-family: 'Proxima Nova', sans-serif;
-margin-top: 10px;
-width: 235px;
-height: 40px;
-background: #eeeeee;
-color: #444;
-text-decoration: none;
-text-align: center;
-border-radius: 0.35rem;
-outline: none;
-}
-
-
-.form-textname {
-    width: 200px;
-    font-size: 16px;
-    font-family: 'Proxima Nova', sans-serif;
-    color: #444;
-    margin: 0px 0px 10px 0px;
-}
-
-.form-textname:focus, .form-textnemail:focus, .form-textarea:focus {
-    color: #333;
-    background: #e5e5e4;
-    -moz-transition: all 300ms ease-in-out;
-        -webkit-transition: all 300ms ease-in-out;
-        -o-transition: all 300ms ease-in-out;
-        -ms-transition: all 300ms ease-in-out;
-        transition: all 300ms ease-in-out;
+    .form-textemail {
+        width: 200px;
+        margin: 0px 0px 10px 0px;
     }
-.form-textemail {
-    width: 200px;
-    font-size: 16px;
-    font-family: 'Proxima Nova', sans-serif;
-    color: #444;
-    margin: 0px 0px 10px 0px;
-}
 
-.form-textarea {
-    width: 200px;
-    min-height: 12rem;
-    font-size: 16px;
-    font-family: 'Proxima Nova', sans-serif;
-    color: #444;
-}
+    .form-textarea {
+        width: 200px;
+        min-height: 12rem;
+    }
 }
