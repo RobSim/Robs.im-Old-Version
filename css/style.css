@@ -126,6 +126,9 @@ form textarea {
   border-radius: 0.35rem;
   padding: 0.75em 1em 0.75em 1em; }
 
+form textarea {
+  float: left; }
+
 form input.text:hover,
 form select:hover,
 form textarea:hover {
@@ -172,26 +175,17 @@ textarea:focus:-moz-placeholder {
 
 button {
   display: inline-block;
-  background: #444;
   text-align: center;
   text-decoration: none;
+  outline: none;
+  border-style: none;
   border-radius: 0.35em;
   border: 0;
   outline: 0;
-  cursor: pointer;
-  -moz-transition: all 300ms ease-in-out;
-  -webkit-transition: all 300ms ease-in-out;
-  -o-transition: all 300ms ease-in-out;
-  -ms-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out; }
+  cursor: pointer; }
 
 button.submit {
   font-family: "Proxima Nova", sans-serif;
-  text-decoration: none;
-  text-align: center;
-  border-style: none;
-  border-radius: 0.35rem;
-  outline: none;
   background: #fff;
   color: #444;
   -moz-transition: all 300ms ease-in-out;
