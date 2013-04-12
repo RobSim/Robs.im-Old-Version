@@ -28,19 +28,19 @@
   width: 1em;
   margin-right: 0.2em;
   text-align: center;
-/* opacity .8 */
-/* For safety - reset parent styles, that can break glyph codes*/
+  /* opacity .8 */
+  /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-/* fix buttons height, for twitter bootstrap */
+  /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
-/* Animation center compensation - magrins should be symmetric */
-/* remove if not needed */
+  /* Animation center compensation - magrins should be symmetric */
+  /* remove if not needed */
   margin-left: 0.2em;
-/* you can be more comfortable with increased icons size */
-font-size: 150%;
-/* Uncomment for 3D effect */
-/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  /* you can be more comfortable with increased icons size */
+  font-size: 150%;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
 .icon-forrst, .icon-dribbble, .icon-email, .icon-tent, .icon-blog, .icon-feather {

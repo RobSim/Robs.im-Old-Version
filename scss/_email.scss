@@ -1,78 +1,72 @@
-    form
+form
+{
+}
+
+form label
+{
+ display: block;
+ color: #484d55;
+}
+
+form input, form select, form textarea
+{
+ -webkit-appearance: none;
+ display: block;
+ border: 0;
+ background: #fff;
+ outline: none;
+       // box-shadow: inset 0px 0px 1px 0px #a0a1a7;
+       border-radius: 0.35rem;
+       // width: 100%;
+       padding: 0.75em 1em 0.75em 1em;
+   }
+
+   form textarea {
+    float: left;
+}
+
+form input.text:hover, form select:hover, form textarea:hover
+{
+   text-decoration: none;
+}
+
+
+form:focus {
+    color: #fff;
+    
+    form .formerize-placeholder
     {
+       color: #555;
+       font-style: italic;
+       
+       form ::-webkit-input-placeholder
+       {
+           color: #555;
+           font-style: italic;
+       }
+
+       form :-moz-placeholder
+       {
+        color: #555;
+        font-style: italic;
     }
-    
-        form label
-        {
-            display: block;
-            color: #484d55;
-        }
-    
-        form input,
-        form select,
-        form textarea
-        {
-            -webkit-appearance: none;
-            display: block;
-            border: 0;
-            background: #fff;
-            outline: none;
-            // box-shadow: inset 0px 0px 1px 0px #a0a1a7;
-            border-radius: 0.35rem;
-            // width: 100%;
-            padding: 0.75em 1em 0.75em 1em;
-        }
 
-        form textarea {
-            float: left;
-        }
+    form ::-moz-placeholder
+    {
+        color: #555;
+        font-style: italic;
+    }
 
-            form input.text:hover,
-            form select:hover,
-            form textarea:hover
-            {
-                text-decoration: none;
-            }
+    form :-ms-input-placeholder
+    {
+        color: #555;
+        font-style: italic;
+    }
 
-
-            form:focus {
-                color: #fff;
-            }
-
-            form .formerize-placeholder
-            {
-                color: #555;
-                font-style: italic;
-            }
-
-            form ::-webkit-input-placeholder
-            {
-                color: #555;
-                font-style: italic;
-            }
-
-            form :-moz-placeholder
-            {
-                color: #555;
-                font-style: italic;
-            }
-
-            form ::-moz-placeholder
-            {
-                color: #555;
-                font-style: italic;
-            }
-
-            form :-ms-input-placeholder
-            {
-                color: #555;
-                font-style: italic;
-            }
-
-            form ::-moz-focus-inner
-            {
-                border: 0;
-            }
+    form ::-moz-focus-inner
+    {
+        border: 0;
+    }
 // Contact Form Placeholer Focus
 input:focus::-webkit-input-placeholder {
     color: #fff;
@@ -82,12 +76,12 @@ textarea:focus::-webkit-input-placeholder {
 }
 input:focus:-moz-placeholder {
     color: #fff;
-}​
-textarea:focus:-moz-placeholder {
-    color: #fff;
-}
+    }​
+    textarea:focus:-moz-placeholder {
+        color: #fff;
+    }
 
-button
+    button
     {
         display: inline-block;
         text-align: center;
@@ -100,82 +94,82 @@ button
         cursor: pointer;
     }
 
-button.submit {
-    font-family: 'Proxima Nova', sans-serif;
-    background: #fff;
-    color: #444;
-    -moz-transition: all 300ms ease-in-out;
-    -webkit-transition: all 300ms ease-in-out;
-    -o-transition: all 300ms ease-in-out;
-    -ms-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-    margin-top: 10px;
-    width: 235px;
-    height: 40px;
-    font-size: 16px;
-}
-
-button.submit:hover{
-    color: #fff;
-    background: none;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #fff;
-    outline: 0;
-}
-
-.form-textname, .form-textemail, .form-textarea {
-    font-family: 'Proxima Nova', sans-serif;
-    color: #444;
-    font-size: 16px;
-}
-
-.form-textname {
-    width: 200px;
-    margin: 0px 0px 10px 0px;
-}
-
-.form-textname:focus, .form-textemail:focus, .form-textarea:focus {
-    color: #fff;
-    background: none;
-    -webkit-box-shadow:  0px 0px 0px 1px #fff;
-    box-shadow:  0px 0px 0px 1px #fff;
-    -moz-transition: all 300ms ease-in-out;
-    -webkit-transition: all 300ms ease-in-out;
-    -o-transition: all 300ms ease-in-out;
-    -ms-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
+    button.submit {
+        font-family: 'Proxima Nova', sans-serif;
+        background: #fff;
+        color: #444;
+        -moz-transition: all 300ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        -ms-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
+        margin-top: 10px;
+        width: 235px;
+        height: 40px;
+        font-size: 16px;
     }
 
-@media screen and (min-width: 700px) {
-    button.submit{
-        margin-left: 145px;
+    button.submit:hover{
+        color: #fff;
+        background: none;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #fff;
+        outline: 0;
+    }
+
+    .form-textname, .form-textemail, .form-textarea {
+        font-family: 'Proxima Nova', sans-serif;
+        color: #444;
+        font-size: 16px;
     }
 
     .form-textname {
-        float: left;
-    }
-
-    .form-textemail {
-        width: 258px;
-        float: left;
-        margin: 0px 10px 10px 10px;
-    }
-
-    .form-textarea {
-        width: 500px;
-        min-height: 12rem;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .form-textemail {
         width: 200px;
         margin: 0px 0px 10px 0px;
     }
 
-    .form-textarea {
-        width: 200px;
-        min-height: 12rem;
+    .form-textname:focus, .form-textemail:focus, .form-textarea:focus {
+        color: #fff;
+        background: none;
+        -webkit-box-shadow:  0px 0px 0px 1px #fff;
+        box-shadow:  0px 0px 0px 1px #fff;
+        -moz-transition: all 300ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        -ms-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
     }
-}
+
+    @media screen and (min-width: 700px) {
+        button.submit{
+            margin-left: 145px;
+        }
+
+        .form-textname {
+            float: left;
+        }
+
+        .form-textemail {
+            width: 258px;
+            float: left;
+            margin: 0px 10px 10px 10px;
+        }
+
+        .form-textarea {
+            width: 500px;
+            min-height: 12rem;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .form-textemail {
+            width: 200px;
+            margin: 0px 0px 10px 0px;
+        }
+
+        .form-textarea {
+            width: 200px;
+            min-height: 12rem;
+        }
+    }

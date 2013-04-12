@@ -9,9 +9,9 @@ footer {
 }
 
 html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
 }
 
 a {
@@ -31,13 +31,13 @@ body {
 }
 
 img {
-// Responsive IMGs
-  max-width: 100%;
-  width: auto\9; /*iefix*/
-  height: auto;
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
+	// Responsive IMGs
+	max-width: 100%;
+	width: auto\9; /*iefix*/
+	height: auto;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
 }
 
 img::selection {
@@ -45,11 +45,11 @@ img::selection {
 }
 
 ::selection {
-  background: rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.1);
 }
 
 ::-moz-selection {
-  background: rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -212,9 +212,9 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  font-weight: normal;
-  font-family: 'Proxima Nova', sans-serif;
+	margin-top: 0;
+	font-weight: normal;
+	font-family: 'Proxima Nova', sans-serif;
 }
 
 h1 {
