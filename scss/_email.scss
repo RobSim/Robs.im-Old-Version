@@ -33,11 +33,13 @@ form input.text:hover, form select:hover, form textarea:hover
 
 form:focus {
     color: #fff;
+}
     
     form .formerize-placeholder
     {
        color: #555;
        font-style: italic;
+   }
        
        form ::-webkit-input-placeholder
        {
@@ -83,7 +85,7 @@ input:focus:-moz-placeholder {
 
     button
     {
-        display: inline-block;
+        display: block;
         text-align: center;
         text-decoration: none;
         outline: none;
@@ -159,17 +161,29 @@ input:focus:-moz-placeholder {
         .form-textarea {
             width: 500px;
             min-height: 12rem;
+            float: left;
+            margin-bottom: 10px;
         }
     }
 
     @media screen and (max-width: 700px) {
+        $mobileButtonWidth: 200px;
+      button.submit {
+        width: $mobileButtonWidth*1.15;
+      }
+
+       .form-textname {
+        width: $mobileButtonWidth;
+       }
+
         .form-textemail {
-            width: 200px;
+            width: $mobileButtonWidth;
             margin: 0px 0px 10px 0px;
         }
 
         .form-textarea {
-            width: 200px;
+            float: none;
+            width: $mobileButtonWidth;
             min-height: 12rem;
         }
     }

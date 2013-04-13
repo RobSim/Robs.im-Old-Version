@@ -115,9 +115,7 @@ form label {
   display: block;
   color: #484d55; }
 
-form input,
-form select,
-form textarea {
+form input, form select, form textarea {
   -webkit-appearance: none;
   display: block;
   border: 0;
@@ -129,9 +127,7 @@ form textarea {
 form textarea {
   float: left; }
 
-form input.text:hover,
-form select:hover,
-form textarea:hover {
+form input.text:hover, form select:hover, form textarea:hover {
   text-decoration: none; }
 
 form:focus {
@@ -174,7 +170,7 @@ textarea:focus:-moz-placeholder {
   color: #fff; }
 
 button {
-  display: inline-block;
+  display: block;
   text-align: center;
   text-decoration: none;
   outline: none;
@@ -240,13 +236,22 @@ button.submit:hover {
 
   .form-textarea {
     width: 500px;
-    min-height: 12rem; } }
+    min-height: 12rem;
+    float: left;
+    margin-bottom: 10px; } }
 @media screen and (max-width: 700px) {
+  button.submit {
+    width: 230.0px; }
+
+  .form-textname {
+    width: 200px; }
+
   .form-textemail {
     width: 200px;
     margin: 0px 0px 10px 0px; }
 
   .form-textarea {
+    float: none;
     width: 200px;
     min-height: 12rem; } }
 section,
@@ -451,4 +456,5 @@ h6 {
   display: none; }
 
 ul, li {
-  list-style-type: none; }
+  list-style-type: none;
+  padding: 0 auto; }
