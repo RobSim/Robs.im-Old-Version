@@ -7,10 +7,17 @@
   font-style: normal; }
 
 @font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url("proximanova-bold.eot");
+  src: url("proximanova-bold.eot?#iefix") format("embedded-opentype"), url("proximanova-bold.woff") format("woff"), url("proximanova-bold.ttf") format("truetype"), url("proximanova-bold.svg#proxima_nova_rgbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
   font-family: 'Proxima Nova Extrabold';
   src: url("font/proximanova-extrabold-webfont.eot");
   src: url("font/proximanova-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("font/proximanova-extrabold-webfont.woff") format("woff"), url("font/proximanova-extrabold-webfont.ttf") format("truetype"), url("font/proximanova-extrabold-webfont.svg#proxima_novaextrabold") format("svg");
-  font-weight: bold;
+  font-weight: bolder;
   font-style: normal; }
 
 @font-face {
@@ -178,7 +185,7 @@ button {
   cursor: pointer; }
 
 button.submit {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Proxima Nova Bold", sans-serif;
   background: #fff;
   color: #444;
   -moz-transition: all 300ms ease-in-out;
@@ -186,7 +193,6 @@ button.submit {
   -o-transition: all 300ms ease-in-out;
   -ms-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
-  margin-top: 10px;
   width: 235px;
   height: 40px;
   font-size: 16px; }
@@ -200,7 +206,7 @@ button.submit:hover {
   outline: 0; }
 
 .form-textname, .form-textemail, .form-textarea {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Proxima Nova Bold", sans-serif;
   color: #444;
   font-size: 16px; }
 
@@ -221,7 +227,7 @@ button.submit:hover {
 
 @media screen and (min-width: 700px) {
   button.submit {
-    float: none;
+    float: left;
     margin-left: 145px; }
 
   .form-textname {
@@ -239,7 +245,8 @@ button.submit:hover {
     margin-bottom: 10px; } }
 @media screen and (max-width: 700px) {
   button.submit {
-    width: 230.0px; }
+    width: 230.0px;
+    margin-top: 10px; }
 
   .form-textname {
     width: 200px; }
@@ -401,6 +408,7 @@ section#contact {
 
 section#contact .width {
   max-width: 600px;
+  min-height: 300px;
   padding-left: 10px;
   margin: 0 auto;
   line-height: 1.9rem;

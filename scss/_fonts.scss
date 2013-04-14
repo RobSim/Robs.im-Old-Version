@@ -10,12 +10,23 @@
 }
 
 @font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('proximanova-bold.eot');
+    src: url('proximanova-bold.eot?#iefix') format('embedded-opentype'),
+    url('proximanova-bold.woff') format('woff'),
+    url('proximanova-bold.ttf') format('truetype'),
+    url('proximanova-bold.svg#proxima_nova_rgbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Proxima Nova Extrabold';
     src: url('font/proximanova-extrabold-webfont.eot');
     src: url('font/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
     url('font/proximanova-extrabold-webfont.woff') format('woff'),
     url('font/proximanova-extrabold-webfont.ttf') format('truetype'),
     url('font/proximanova-extrabold-webfont.svg#proxima_novaextrabold') format('svg');
-    font-weight: bold;
+    font-weight: bolder;
     font-style: normal;
 }

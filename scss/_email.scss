@@ -95,7 +95,7 @@ input:focus:-moz-placeholder {
     }
 
     button.submit {
-        font-family: 'Proxima Nova', sans-serif;
+        font-family: 'Proxima Nova Bold', sans-serif;
         background: #fff;
         color: #444;
         -moz-transition: all 300ms ease-in-out;
@@ -103,7 +103,7 @@ input:focus:-moz-placeholder {
         -o-transition: all 300ms ease-in-out;
         -ms-transition: all 300ms ease-in-out;
         transition: all 300ms ease-in-out;
-        margin-top: 10px;
+        // margin-top: 10px;
         width: 235px;
         height: 40px;
         font-size: 16px;
@@ -119,7 +119,7 @@ input:focus:-moz-placeholder {
     }
 
     .form-textname, .form-textemail, .form-textarea {
-        font-family: 'Proxima Nova', sans-serif;
+        font-family: 'Proxima Nova Bold', sans-serif;
         color: #444;
         font-size: 16px;
     }
@@ -143,7 +143,7 @@ input:focus:-moz-placeholder {
 
     @media screen and (min-width: 700px) {
         button.submit{
-            float: none;
+            float: left;
             margin-left: 145px;
         }
 
@@ -169,6 +169,7 @@ input:focus:-moz-placeholder {
         $mobileButtonWidth: 200px;
       button.submit {
         width: $mobileButtonWidth*1.15;
+        margin-top: 10px;
       }
 
        .form-textname {
