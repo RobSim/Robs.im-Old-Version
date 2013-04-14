@@ -124,9 +124,6 @@ form input, form select, form textarea {
   border-radius: 0.35rem;
   padding: 0.75em 1em 0.75em 1em; }
 
-form textarea {
-  float: left; }
-
 form input.text:hover, form select:hover, form textarea:hover {
   text-decoration: none; }
 
@@ -224,6 +221,7 @@ button.submit:hover {
 
 @media screen and (min-width: 700px) {
   button.submit {
+    float: none;
     margin-left: 145px; }
 
   .form-textname {
@@ -235,9 +233,9 @@ button.submit:hover {
     margin: 0px 10px 10px 10px; }
 
   .form-textarea {
+    float: left;
     width: 500px;
     min-height: 12rem;
-    float: left;
     margin-bottom: 10px; } }
 @media screen and (max-width: 700px) {
   button.submit {
@@ -266,7 +264,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #777; }
+  color: #0B94D8; }
 
 body {
   width: 100%;
@@ -356,7 +354,7 @@ header#head h2 {
     padding: 20px 0 35px 0; } }
 section#about {
   padding: 78px 0 78px 0;
-  color: #afb0ae; }
+  color: #666; }
 
 section#about .width {
   max-width: 600px;
@@ -402,7 +400,6 @@ section#contact {
   background: #0096d3; }
 
 section#contact .width {
-  max-width: 100%;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.9rem;

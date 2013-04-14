@@ -16,7 +16,7 @@ html {
 
 a {
 	text-decoration: none;
-	color: #777;
+	color: #0B94D8;
 }
 
 body {
@@ -124,7 +124,7 @@ header#head h2 {
 
 section#about {
 	padding: 78px 0 78px 0;
-	color: #afb0ae;
+	color: #666;
 }
 
 section#about .width {
@@ -181,10 +181,8 @@ section#contact {
 }
 
 section#contact .width {
-	max-width: 100%;
 	max-width: 600px;
 	margin: 0 auto;
-	// padding: 0 20px 0 20px;
 	line-height: 1.9rem;
 	text-align: left;
 }

@@ -15,15 +15,13 @@ form input, form select, form textarea
  border: 0;
  background: #fff;
  outline: none;
-       // box-shadow: inset 0px 0px 1px 0px #a0a1a7;
-       border-radius: 0.35rem;
-       // width: 100%;
-       padding: 0.75em 1em 0.75em 1em;
-   }
-
-   form textarea {
-    float: left;
+border-radius: 0.35rem;
+padding: 0.75em 1em 0.75em 1em;
 }
+
+//    form textarea {
+//     float: left;
+// }
 
 form input.text:hover, form select:hover, form textarea:hover
 {
@@ -145,6 +143,7 @@ input:focus:-moz-placeholder {
 
     @media screen and (min-width: 700px) {
         button.submit{
+            float: none;
             margin-left: 145px;
         }
 
@@ -159,9 +158,9 @@ input:focus:-moz-placeholder {
         }
 
         .form-textarea {
+            float: left;
             width: 500px;
             min-height: 12rem;
-            float: left;
             margin-bottom: 10px;
         }
     }
