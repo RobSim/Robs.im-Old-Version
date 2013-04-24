@@ -87,8 +87,9 @@ header#head h2 {
 		display: block;
 	}
 	.contain {
-		float:right;
-		min-width: 120px;
+		margin: 0 auto;
+		float:left;
+		min-width: 140px;
 	}
 	.mobile {
 		display: none;
@@ -135,6 +136,18 @@ section#about .width {
 	text-align: left;
 }
 
+// section#process {
+// 	padding: 78px 0 78px 0;
+// 	color: #666;
+// }
+
+// section#process .width {
+// 	max-width: 600px;
+// 	margin: 0 auto;
+// 	padding: 0 20px 0 20px;
+// 	line-height: 1.9rem;
+// 	text-align: left;
+// }
 
 section#social {
 	background: #0096d3;

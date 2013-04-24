@@ -332,8 +332,9 @@ header#head h2 {
     display: block; }
 
   .contain {
-    float: right;
-    min-width: 120px; }
+    margin: 0 auto;
+    float: left;
+    min-width: 140px; }
 
   .mobile {
     display: none; }
