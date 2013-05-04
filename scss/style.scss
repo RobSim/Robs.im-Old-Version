@@ -132,6 +132,23 @@ section#latest1 {
         margin: 0 auto;
         padding: 0 20px 0 20px;
     }
+    & h1 {
+        color: $latest1-color-dark;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+    & p {
+        color: $latest1-color-dark;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 1.05rem;
+        margin-top: 3px;
+    }
+    & a {
+        color: $latest1-color-light;
+        text-decoration: none;
+    }
 }
 
 section#latest2 {
@@ -141,6 +158,23 @@ section#latest2 {
         max-width: 600px;
         margin: 0 auto;
         padding: 0 20px 0 20px;
+    }
+    & h1 {
+        color: $latest2-color-dark;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+    & p {
+        color: $latest2-color-dark;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 1.05rem;
+        margin-top: 3px;
+    }
+    & a {
+        color: $latest2-color-light;
+        text-decoration: none;
     }
 }
 
@@ -152,6 +186,7 @@ section#contact {
         min-height: 300px;
         padding-left: 2%;
         margin: 0 auto;
+        display: block;
         line-height: 1.9rem;
         text-align: left;
     }
@@ -195,4 +230,8 @@ ul, li {
     @include max-screen(700px) {
         padding: 0 4% 0 0;
     }
+}
+.img-center {
+    margin: 0 auto;
+    display: block;
 }
