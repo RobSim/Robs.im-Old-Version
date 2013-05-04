@@ -7,169 +7,169 @@
 section,
 header,
 footer {
-	display: block;
+    display: block;
 }
 
 html {
-	font-size: 100%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
 a {
-	text-decoration: none;
-	color: $link-color;
+    text-decoration: none;
+    color: $link-color;
 }
 
 body {
-	width: 100%;
-	font-family: 'Proxima Nova', sans-serif;
-	margin: 0;
-	padding: 0 auto;
-	color: #333;
-	font-size: 1.3rem;
-	text-align: left;
-	line-height: 1.7rem;
+    width: 100%;
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 0;
+    padding: 0 auto;
+    color: #333;
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 1.7rem;
 }
 
 img {
-	// Responsive IMGs
-	max-width: 100%;
-	width: auto\9; /*iefix*/
-	height: auto;
-	vertical-align: middle;
-	border: 0;
-	-ms-interpolation-mode: bicubic;
+    // Responsive IMGs
+    max-width: 100%;
+    width: auto\9; /*iefix*/
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
 }
 
 img::selection {
-	background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
 }
 
 ::selection {
-	background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 ::-moz-selection {
-	background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 header {
-	text-align: center;
-	&#head {
-		background: $header-color;
-		padding: 40px 0 30px 0;
-		& h1 {
-			font-family: 'Proxima Nova Extrabold', sans-serif;
-			color: #444;
-			@include min-screen(700px) {
-				padding-top: 35px;
-				font-size: 7rem;
-				line-height: 5rem;
-			}
-			@include max-screen(700px) {
-				padding-top: 20px;
-				font-size: 4rem;
-			}
-		}
-		& h2 {
-			font-size: 1.1rem;
-			color: $title-color;
-			@include min-screen(700px) {
-				margin-top: -75px;
-			}
-			@include max-screen(700px) {
-				margin-top: -25px;
-			}
-		}
-	}
+    text-align: center;
+    &#head {
+        background: $header-color;
+        padding: 40px 0 30px 0;
+        & h1 {
+            font-family: 'Proxima Nova Extrabold', sans-serif;
+            color: #444;
+            @include min-screen(700px) {
+                padding-top: 35px;
+                font-size: 7rem;
+                line-height: 5rem;
+            }
+            @include max-screen(700px) {
+                padding-top: 20px;
+                font-size: 4rem;
+            }
+        }
+        & h2 {
+            font-size: 1.1rem;
+            color: $title-color;
+            @include min-screen(700px) {
+                margin-top: -75px;
+            }
+            @include max-screen(700px) {
+                margin-top: -25px;
+            }
+        }
+    }
 }
 
 section#about {
-	padding: 78px 0 78px 0;
-	color: #666;
-	& .width {
-		max-width: 600px;
-		margin: 0 auto;
-		padding: 0 20px 0 20px;
-		line-height: 1.9rem;
-		text-align: left;
-	}
+    padding: 78px 0 78px 0;
+    color: #666;
+    & .width {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 20px 0 20px;
+        line-height: 1.9rem;
+        text-align: left;
+    }
 }
 
 section#social {
-	background: $social-color;
-	@include min-screen(700px) {
-		padding: 30px 0 55px 0;
-	}
-	@include max-screen(700px) {
-		padding: 20px 0 35px 0;
-	}
-	& .aligner {
-		text-align: center;
-		margin: 0 auto;
-		max-width: 600px;
-		color: #fff;
-		@include min-screen(700px) {
-			font-size: 2rem;
-		}
-		@include max-screen(700px) {
-			font-size: 1.5rem;
-		}
-		& a {
-			color: #fff;
-			text-decoration: none;
-			height: 125px;
-		}
-	}
+    background: $social-color;
+    @include min-screen(700px) {
+        padding: 30px 0 55px 0;
+    }
+    @include max-screen(700px) {
+        padding: 20px 0 35px 0;
+    }
+    & .aligner {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 600px;
+        color: #fff;
+        @include min-screen(700px) {
+            font-size: 2rem;
+        }
+        @include max-screen(700px) {
+            font-size: 1.5rem;
+        }
+        & a {
+            color: #fff;
+            text-decoration: none;
+            height: 125px;
+        }
+    }
 }
 
 section#latest1 {
-	padding: 78px 0 78px 0;
-	background: $latest1-color;
-	& .width {
-		max-width: 600px;
-		margin: 0 auto;
-		padding: 0 20px 0 20px;
-	}
+    padding: 78px 0 78px 0;
+    background: $latest1-color;
+    & .width {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 20px 0 20px;
+    }
 }
 
 section#latest2 {
-	padding: 78px 0 78px 0;
-	background: $latest2-color;
-	& .width {
-		max-width: 600px;
-		margin: 0 auto;
-		padding: 0 20px 0 20px;
-	}
+    padding: 78px 0 78px 0;
+    background: $latest2-color;
+    & .width {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 20px 0 20px;
+    }
 }
 
 section#contact {
-	padding: 78px 0 78px 0;
-	background: $contact-color;
-	& .width {
-		max-width: 600px;
-		min-height: 300px;
-		padding-left: 10px;
-		margin: 0 auto;
-		line-height: 1.9rem;
-		text-align: left;
-	}
+    padding: 78px 0 78px 0;
+    background: $contact-color;
+    & .width {
+        max-width: 600px;
+        min-height: 300px;
+        padding-left: 2%;
+        margin: 0 auto;
+        line-height: 1.9rem;
+        text-align: left;
+    }
 }
 
 footer#foot {
-	padding: 40px 0 30px 0;
-	background: $footer-color;
-	& .cont {
-		text-align: left;
-		padding: 0 20px 0 20px;
-		margin: 0 auto;
-		max-width: 600px;
-		& a {
-			color: #444;
-			text-decoration: none;
-		}
-	}
+    padding: 40px 0 30px 0;
+    background: $footer-color;
+    & .cont {
+        text-align: left;
+        padding: 0 20px 0 20px;
+        margin: 0 auto;
+        max-width: 600px;
+        & a {
+            color: #444;
+            text-decoration: none;
+        }
+    }
 }
 
 h1,
@@ -178,21 +178,21 @@ h3,
 h4,
 h5,
 h6 {
-	margin-top: 0;
-	font-weight: normal;
-	font-family: 'Proxima Nova', sans-serif;
+    margin-top: 0;
+    font-weight: normal;
+    font-family: 'Proxima Nova', sans-serif;
 }
 
 ul, li { 
-	list-style-type: none;
-	padding: 0 auto; 
+    list-style-type: none;
+    padding: 0 auto; 
 }
 
 .icon {
-	@include min-screen(700px) {
-		padding: 0 8% 0 0;
-	}
-	@include max-screen(700px) {
-		padding: 0 4% 0 0;
-	}
+    @include min-screen(700px) {
+        padding: 0 8% 0 0;
+    }
+    @include max-screen(700px) {
+        padding: 0 4% 0 0;
+    }
 }
