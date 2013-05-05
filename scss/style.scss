@@ -99,6 +99,7 @@ section#about {
 
 section#social {
     background: $social-color;
+    -webkit-backface-visibility: hidden; //flashing Fix
     @include min-screen(700px) {
         padding: 30px 0 55px 0;
     }
