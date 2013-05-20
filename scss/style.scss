@@ -43,7 +43,7 @@ img {
 }
 
 img::selection {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 ::selection {
@@ -175,6 +175,32 @@ section#latest2 {
     }
     & a {
         color: $latest2-color-light;
+        text-decoration: none;
+    }
+}
+section#latest3 {
+    padding: 78px 0 78px 0;
+    background: $latest3-color;
+    & .width {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 20px 0 20px;
+    }
+    & h1 {
+        color: $latest3-color-dark;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+    & p {
+        color: $latest3-color-dark;
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 1.05rem;
+        margin-top: 3px;
+    }
+    & a {
+        color: $latest3-color-light;
         text-decoration: none;
     }
 }
