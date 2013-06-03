@@ -124,84 +124,81 @@ section#social {
         }
     }
 }
-
-section#latest1 {
+section#latest1, section#latest2, section#latest3 {
     padding: 78px 0 78px 0;
-    background: $latest1-color;
     & .width {
         max-width: 600px;
         margin: 0 auto;
         padding: 0 20px 0 20px;
     }
     & h1 {
-        color: $latest1-color-dark;
         font-family: 'Proxima Nova', sans-serif;
-        font-size: 1.3rem;
+        font-size: 1.45rem;
         text-align: center;
-        margin-bottom: 3px;
+        margin-bottom: 0px;
+    }
+    & h2 {
+        font-family: 'Proxima Nova', sans-serif;
+        font-size: 1.05rem;
+        text-align: center;
+        margin-bottom: 12px;
+        margin-top: 0px;
     }
     & p {
-        color: $latest1-color-dark;
         font-family: 'Proxima Nova', sans-serif;
         font-size: 1.05rem;
         margin-top: 3px;
     }
     & a {
-        color: $latest1-color-light;
         text-decoration: none;
+    }
+}
+
+section#latest1 {
+    background: $latest1-color;
+    & h1 {
+        color: $latest1-color-dark;
+    }
+    & h2 {
+        color: $latest1-color-dark;
+    }
+    & p {
+        color: $latest1-color-dark;
+    }
+    & a {
+        color: $latest1-color-light;
     }
 }
 
 section#latest2 {
-    padding: 78px 0 78px 0;
     background: $latest2-color;
-    & .width {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 0 20px 0 20px;
-    }
     & h1 {
         color: $latest2-color-dark;
-        font-family: 'Proxima Nova', sans-serif;
-        font-size: 1.3rem;
-        text-align: center;
-        margin-bottom: 3px;
+    }
+    & h2 {
+        color: $latest2-color-dark;
     }
     & p {
         color: $latest2-color-dark;
-        font-family: 'Proxima Nova', sans-serif;
-        font-size: 1.05rem;
-        margin-top: 3px;
     }
     & a {
         color: $latest2-color-light;
-        text-decoration: none;
     }
 }
+
 section#latest3 {
-    padding: 78px 0 78px 0;
     background: $latest3-color;
-    & .width {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 0 20px 0 20px;
-    }
     & h1 {
         color: $latest3-color-dark;
-        font-family: 'Proxima Nova', sans-serif;
-        font-size: 1.3rem;
-        text-align: center;
-        margin-bottom: 3px;
+    }
+    & h2 {
+        color: $latest3-color-dark;
     }
     & p {
         color: $latest3-color-dark;
-        font-family: 'Proxima Nova', sans-serif;
-        font-size: 1.05rem;
-        margin-top: 3px;
     }
     & a {
         color: $latest3-color-light;
-        text-decoration: none;
     }
 }
 
