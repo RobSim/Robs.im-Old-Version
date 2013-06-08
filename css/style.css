@@ -310,15 +310,14 @@ html {
   -ms-text-size-adjust: 100%; }
 
 a {
-  text-decoration: none;
-  color: #3498db; }
+  text-decoration: none; }
 
 body {
   width: 100%;
   font-family: 'Proxima Nova', sans-serif;
   margin: 0;
   padding: 0 auto;
-  color: #333;
+  color: #444444;
   font-size: 1.3rem;
   text-align: left;
   line-height: 1.7rem; }
@@ -344,11 +343,11 @@ img::selection {
 header {
   text-align: center; }
   header#head {
-    background: #ecf0f1;
+    background: #e1e6e6;
     padding: 40px 0 30px 0; }
     header#head h1 {
       font-family: 'Proxima Nova Extrabold', sans-serif;
-      color: #444; }
+      color: #444444; }
       @media screen and (min-width: 700px) {
         header#head h1 {
           padding-top: 35px;
@@ -369,17 +368,24 @@ header {
           margin-top: -25px; } }
 
 section#about {
+  background: #eff2f2;
   padding: 78px 0 78px 0;
-  color: #666; }
+  color: #9bacac; }
   section#about .width {
     max-width: 600px;
     margin: 0 auto;
     padding: 0 20px 0 20px;
     line-height: 1.9rem;
     text-align: left; }
+  section#about .dribbble {
+    color: #ec5e95; }
+  section#about .contact {
+    color: #c0392b; }
+  section#about .blog {
+    color: #f39c12; }
 
 section#social {
-  background: #3498db;
+  background: white;
   -webkit-backface-visibility: hidden; }
   @media screen and (min-width: 700px) {
     section#social {
@@ -391,7 +397,7 @@ section#social {
     text-align: center;
     margin: 0 auto;
     max-width: 600px;
-    color: #fff; }
+    color: rgba(68, 68, 68, 0.1); }
     @media screen and (min-width: 700px) {
       section#social .aligner {
         font-size: 2rem; } }
@@ -399,7 +405,7 @@ section#social {
       section#social .aligner {
         font-size: 1.5rem; } }
     section#social .aligner a {
-      color: #fff;
+      color: rgba(68, 68, 68, 0.1);
       text-decoration: none;
       height: 125px; }
 
@@ -479,9 +485,10 @@ footer#foot {
     text-align: left;
     padding: 0 20px 0 20px;
     margin: 0 auto;
-    max-width: 600px; }
+    max-width: 600px;
+    color: #6d2018; }
     footer#foot .cont a {
-      color: #444;
+      color: #df7c72;
       text-decoration: none; }
 
 h1,

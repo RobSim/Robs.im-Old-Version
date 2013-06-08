@@ -18,7 +18,7 @@ html {
 
 a {
     text-decoration: none;
-    color: $link-color;
+    // color: $link-color;
 }
 
 body {
@@ -26,7 +26,7 @@ body {
     font-family: 'Proxima Nova', sans-serif;
     margin: 0;
     padding: 0 auto;
-    color: #333;
+    color: $main-font-color;
     font-size: 1.3rem;
     text-align: left;
     line-height: 1.7rem;
@@ -43,15 +43,15 @@ img {
 }
 
 img::selection {
-    background: rgba(0, 0, 0, 0.1);
+    background: $selection-background;
 }
 
 ::selection {
-    background: rgba(0, 0, 0, 0.1);
+    background: $selection-background;
 }
 
 ::-moz-selection {
-    background: rgba(0, 0, 0, 0.1);
+    background: $selection-background;
 }
 
 header {
@@ -61,7 +61,7 @@ header {
         padding: 40px 0 30px 0;
         & h1 {
             font-family: 'Proxima Nova Extrabold', sans-serif;
-            color: #444;
+            color: $main-font-color;
             @include min-screen(700px) {
                 padding-top: 35px;
                 font-size: 7rem;
@@ -86,14 +86,27 @@ header {
 }
 
 section#about {
-    padding: 78px 0 78px 0;
-    color: #666;
+    background: $about-color;
+    padding: $section-padding;
+    color: $about-color-dark;
     & .width {
-        max-width: 600px;
+        max-width: $section-width;
         margin: 0 auto;
-        padding: 0 20px 0 20px;
+        padding: $content-padding;
         line-height: 1.9rem;
         text-align: left;
+    }
+    & a {
+        // color: $about-color-light;
+    }
+    & .dribbble {
+        color: $dribbble;
+    }
+    & .contact {
+        color: $email;
+    }
+    & .blog {
+        color: $blog;
     }
 }
 
@@ -109,8 +122,8 @@ section#social {
     & .aligner {
         text-align: center;
         margin: 0 auto;
-        max-width: 600px;
-        color: #fff;
+        max-width: $section-width;
+        color: $social-icon-color;
         @include min-screen(700px) {
             font-size: 2rem;
         }
@@ -118,18 +131,18 @@ section#social {
             font-size: 1.5rem;
         }
         & a {
-            color: #fff;
+            color: $social-icon-color;
             text-decoration: none;
             height: 125px;
         }
     }
 }
 section#latest1, section#latest2, section#latest3 {
-    padding: 78px 0 78px 0;
+    padding: $section-padding;
     & .width {
-        max-width: 600px;
+        max-width: $section-width;
         margin: 0 auto;
-        padding: 0 20px 0 20px;
+        padding: $content-padding;
     }
     & h1 {
         font-family: 'Proxima Nova', sans-serif;
@@ -203,10 +216,10 @@ section#latest3 {
 }
 
 section#contact {
-    padding: 78px 0 78px 0;
+    padding: $section-padding;
     background: $contact-color;
     & .width {
-        max-width: 600px;
+        max-width: $section-width;
         min-height: 300px;
         padding-left: 2%;
         margin: 0 auto;
@@ -231,11 +244,12 @@ footer#foot {
     background: $footer-color;
     & .cont {
         text-align: left;
-        padding: 0 20px 0 20px;
+        padding: $content-padding;
         margin: 0 auto;
-        max-width: 600px;
+        max-width: $section-width;
+        color: $footer-color-dark;
         & a {
-            color: #444;
+            color: $footer-color-light;
             text-decoration: none;
         }
     }

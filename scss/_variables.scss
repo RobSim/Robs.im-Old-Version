@@ -1,35 +1,54 @@
-// $link-color: #0B94D8;
-// $header-color: #DFE0DE;
-// $title-color: #AFB0AE;
-// $social-color: #0096D3;
-// $latest1-color: #9FC85F;
-// $latest1-color-dark: darken( $latest1-color, 20% );
-// $latest2-color: #EB9C50;
-// $latest2-color-dark: darken( $latest2-color, 20% );
-// $contact-color: #0096D3;
-// $footer-color: #C0576A;
+$section-padding: 78px 0 78px 0;
+$section-width: 600px;
+$content-padding: 0 20px 0 20px;
+
+$selection-background: rgba(0, 0, 0, 0.1);
 
 //COLOURS
+$main-font-color: #444;
+
 $link-color: #3498DB;
-$header-color: #ECF0F1;
+
+$header-color: #e1e6e6; //was #ECF0F1
+$header-color-dark: darken( $header-color, 20% );
+$header-color-light: lighten( $header-color, 20% );
+
 $title-color: #AFB0AE;
-$social-color: #3498DB;
+
+$social-color: #fff; //was #3498DB
+
+$social-icon-color: rgba(68, 68, 68, 0.1);
+
+$about-color: lighten( $header-color, 5% );; //was #fff
+$about-color-dark: darken( $about-color, 30% );
+$about-color-light: lighten( $about-color, 20% );
+
 $latest1-color: #2ECC71;
 $latest1-color-dark: darken( $latest1-color, 20% );
 $latest1-color-light: lighten( $latest1-color, 30% );
+
 $latest2-color: #25B3EE;
 $latest2-color-dark: darken( $latest2-color, 20% );
 $latest2-color-light: lighten( $latest2-color, 30% );
+
 $latest3-color: #F1C40F;
 $latest3-color-dark: darken( $latest3-color, 20% );
 $latest3-color-light: lighten( $latest3-color, 30% );
+
 $contact-color: #2980B9;
 $contact-color-dark: darken( $contact-color, 20% );
 $contact-color-light: lighten( $contact-color, 30% );
+
 $footer-color: #C0392B;
+$footer-color-dark: darken( $footer-color, 20% );
+$footer-color-light: lighten( $footer-color, 20% );
+
 $forrst: #2ECC71;
+
 $dribbble: lighten( #EA4C89, 4% );
+
 $blog: #F39C12;
+
 $email: #C0392B;
 
 
