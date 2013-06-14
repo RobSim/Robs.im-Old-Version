@@ -171,6 +171,9 @@ section#latest1 {
     background: $latest1-color;
     & h1 {
         color: $latest1-color-dark;
+        & a {
+            color: $latest1-color-dark;
+        }
     }
     & h2 {
         color: $latest1-color-dark;
@@ -187,6 +190,9 @@ section#latest2 {
     background: $latest2-color;
     & h1 {
         color: $latest2-color-dark;
+        & a {
+            color: $latest2-color-dark;
+        }
     }
     & h2 {
         color: $latest2-color-dark;
@@ -203,6 +209,9 @@ section#latest3 {
     background: $latest3-color;
     & h1 {
         color: $latest3-color-dark;
+        & a {
+            color: $latest3-color-dark;
+        }
     }
     & h2 {
         color: $latest3-color-dark;
@@ -282,4 +291,8 @@ ul, li {
 .img-center {
     margin: 0 auto;
     display: block;
+}
+
+.top-pad {
+    margin-top: $top-pad;
 }

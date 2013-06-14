@@ -437,6 +437,8 @@ section#latest1 {
   background: #2ecc71; }
   section#latest1 h1 {
     color: #1b7943; }
+    section#latest1 h1 a {
+      color: #1b7943; }
   section#latest1 h2 {
     color: #1b7943; }
   section#latest1 p {
@@ -448,6 +450,8 @@ section#latest2 {
   background: #25b3ee; }
   section#latest2 h1 {
     color: #0d75a0; }
+    section#latest2 h1 a {
+      color: #0d75a0; }
   section#latest2 h2 {
     color: #0d75a0; }
   section#latest2 p {
@@ -459,6 +463,8 @@ section#latest3 {
   background: #f1c40f; }
   section#latest3 h1 {
     color: #927608; }
+    section#latest3 h1 a {
+      color: #927608; }
   section#latest3 h2 {
     color: #927608; }
   section#latest3 p {
@@ -515,3 +521,6 @@ ul, li {
 .img-center {
   margin: 0 auto;
   display: block; }
+
+.top-pad {
+  margin-top: 3rem; }
