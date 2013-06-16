@@ -299,6 +299,19 @@ button.submit:hover {
 .contact-fix {
   margin-left: -20px; }
 
+.opl {
+  position: relative;
+  top: 100px;
+  left: 0px;
+  z-index: 99999; }
+
+.opl a {
+  width: 73px;
+  height: 56px;
+  text-indent: -9999px;
+  display: block;
+  background: url("https://s3.amazonaws.com/onepagelove/one-page-love-award.png") no-repeat; }
+
 section,
 header,
 footer {
