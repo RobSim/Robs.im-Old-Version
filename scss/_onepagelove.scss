@@ -2,7 +2,12 @@
 position:relative;
 top:100px;
 left:0px;
+margin-top: -56px;
 z-index:99999;
+max-width: 80px;
+@include max-screen(800px){
+	display: none;
+}
 }
 .opl a {
 width:73px;

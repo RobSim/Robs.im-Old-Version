@@ -303,7 +303,12 @@ button.submit:hover {
   position: relative;
   top: 100px;
   left: 0px;
-  z-index: 99999; }
+  margin-top: -56px;
+  z-index: 99999;
+  max-width: 80px; }
+  @media screen and (max-width: 800px) {
+    .opl {
+      display: none; } }
 
 .opl a {
   width: 73px;
