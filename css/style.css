@@ -524,30 +524,3 @@ ul, li {
 
 .top-pad {
   margin-top: 3rem; }
-
-.slider {
-  position: relative;
-  overflow: auto;
-  margin: 0;
-  padding: 0 auto;
-  width: 100%; }
-  .slider li {
-    list-style: none; }
-  .slider ul li {
-    float: left; }
-  .slider ul {
-    -webkit-padding-start: 0px;
-    -webkit-margin-before: 0px;
-    -webkit-margin-after: 0px;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -moz-padding-start: 0px;
-    -moz-margin-before: 0px;
-    -moz-margin-after: 0px;
-    -moz-margin-start: 0px;
-    -moz-margin-end: 0px; }
-
-.about-slider {
-  font-family: 'Proxima Nova', sans-serif;
-  font-weight: normal;
-  font-size: 1.4rem; }
